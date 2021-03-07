@@ -2,7 +2,7 @@ package com.vjh0107.kjsw.junhyung.interfaces;
 
 public interface NoMuhyeon {
 
-    Boolean noMuhyeonRecievedClock = true; // final 선언은 불필요
+    Boolean noMuhyeonRecievedClock = true; // final 선언은 불필요 왜 와이, 생략 가능하기 때문에
     Boolean aWhiteLie = false;
 
     default void printTruthOfNoMuhyen(Boolean iNR) {
